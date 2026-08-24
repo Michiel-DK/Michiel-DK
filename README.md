@@ -29,9 +29,24 @@ below carries receipts — committed numbers, including the unflattering ones.
 
 ## How I work
 
-Pre-registered predictions with review dates. Tests demonstrated red before they are
-trusted green. Kill criteria written before the experiment runs, so a dead end dies
-cheap. And a weekly digest that grades every open prediction — including the ones that
-failed.
+Everything above is built inside an agentic harness I maintain as its own versioned
+repo and consume as a git submodule across projects — a build/review pipeline where the
+agents do the work and the harness makes them prove it:
+
+- **Adversarial before and after the build.** A criterion gate attacks the acceptance
+  criteria before any code is written (halting on letter-traps, ungated paths, ambiguous
+  quantifiers); a panel of refuter agents then tries to break each claim on the diff.
+  Findings are classified blocking vs advisory, so review pressure scales with blast
+  radius — booked-money code gets the full panel, copy changes get one pass.
+- **Pre-registered predictions, graded on a date.** Every behavioural change to the
+  harness ships with a falsifiable prediction and a review-by date; a weekly digest
+  surfaces what's due, and grades are kept whichever way they land — 20+ graded so far,
+  failures included (the failed fixes are the most useful entries).
+- **Red before green.** A test is trusted only after it has been shown failing against
+  the exact defect it pins — reverted fix, injected wrong-fix, or declared gap.
+- **Instrumented, and the instruments get audited too.** A run ledger (3,000+ typed rows
+  mined from real session transcripts: merges, criterion halts, refuter verdicts) feeds
+  the weekly readout — and when a metric stops being true, fixing the instrument is
+  treated as first-priority work, measured the same way as everything else.
 
 📫 michieldekoninck2@gmail.com
