@@ -12,7 +12,7 @@ below carries receipts — committed numbers, including the unflattering ones.
   companies and 134k edges, served to AI agents through an MCP server, and built under an
   agentic review harness (pre-registered predictions, adversarial verification, weekly
   graded readouts). Public demo: [roger3000-demo](https://github.com/Michiel-DK/roger3000-demo).
-- **restaurant-brain** — production operations brain for hospitality: fail-loud SAF-T
+- **[restaurant-brain](https://www.roger3000.com)** — production operations brain for hospitality: fail-loud SAF-T
   invoice ingestion, stock and consumption ledgers, and report cards that disclose, per
   metric, whether they are actually graded or honestly ungradeable. Private repo — the
   build methodology behind it is what the public repos below demonstrate.
