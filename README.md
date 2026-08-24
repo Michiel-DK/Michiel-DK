@@ -35,6 +35,9 @@ makes them prove it:
   is first-priority work, measured the same way as everything else.
 
 The pinned repos below are the same method applied to evals, retrieval, RL rewards and
-post-training — each one carries its own receipts.
+post-training — each one carries its own receipts. For the argument in visual form,
+start with the
+[eval-suite walkthrough](https://michiel-dk.github.io/agent-sandbox/eval-suite-is-the-asset.html)
+(5-minute read).
 
 📫 michieldekoninck2@gmail.com
