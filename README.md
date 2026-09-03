@@ -35,21 +35,11 @@ makes them prove it:
   feeds the weekly readout. When a metric stops being true, fixing the instrument is
   first-priority work, measured the same way as everything else.
 
-## Public repos
-
-The same method applied to evals, retrieval, RL rewards, post-training and sports data.
-Each repo carries its own receipts, failures included.
-
-| Repo | One line |
-|---|---|
-| [agent-exam-suite](https://github.com/Michiel-DK/agent-exam-suite) | Agents are disposable, eval suites are the asset. Six local-model office agents (2B to 14B, one laptop) and the deterministic, judge-free exam harness that decides which model ships. [Visual walkthrough](https://michiel-dk.github.io/agent-exam-suite/eval-suite-is-the-asset.html), 5 minutes. |
-| [rag-retrieval-lab](https://github.com/Michiel-DK/rag-retrieval-lab) | Retrieval methods explained by running them. Predictions registered before each experiment, nulls reported with the same confidence intervals as the wins. Reranking lifts nDCG@10 0.32 to 0.41 on 323 human-labelled queries; BM25 lost, RRF was a null. |
-| [rlvr-codegen](https://github.com/Michiel-DK/rlvr-codegen) | Test the tests before you train on them. Audits a test-pass RL reward before any RLVR training: roughly one in eight visibly-passing solutions from an untrained base model fails the held-out suite. Ran for $0 on a laptop. |
-| [roger3000-demo](https://github.com/Michiel-DK/roger3000-demo) | Scrollytelling demo of the investor-intelligence engine on synthetic data. The only real numbers on the page are the claim-auditor calibration figures. |
-| [cycling_manager](https://github.com/Michiel-DK/cycling_manager) | Predicting Grand Tour results since 2022. Two neural generations (LSTM encoder-decoder, image autoencoders) benchmarked on one held-out race, bugs included. [Architecture digest](https://michiel-dk.github.io/cycling_manager/). |
-| [lora_llama](https://github.com/Michiel-DK/lora_llama) | LoRA fine-tune of Llama-3.2-1B for EN to PT, plus an LLM-judge distillation with a documented leakage flaw. Past work, frozen, with a retracted metric left visible. |
-| [environmental_sound](https://github.com/Michiel-DK/environmental_sound) | ESC-50 sound classification: supervised CNN vs COLA-style contrastive self-supervision, with a write-up of why SSL needs scale and a stage-2 bug I found afterwards. |
-| [repo-radar-public](https://github.com/Michiel-DK/repo-radar-public) | Daily GitHub-trending radar with HN and Reddit demand signals, and per-repo notes on what's reusable. How I keep up. |
+The pinned repos below are the same method applied to evals, retrieval, RL rewards,
+post-training and sports data. Each one carries its own receipts, failures included.
+For the argument in visual form, start with the
+[eval-suite walkthrough](https://michiel-dk.github.io/agent-exam-suite/eval-suite-is-the-asset.html)
+(5-minute read).
 
 Based in Ericeira, Portugal. Before this: five years teaching data science and ML at
 Le Wagon (1,000+ learners, 75+ student projects), and before that logistics operations
