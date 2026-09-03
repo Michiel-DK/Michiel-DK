@@ -7,7 +7,7 @@ skipped: whether the system can prove it works.
 Right now that's two production systems under one roof.
 **[roger3000](https://michiel-dk.github.io/roger3000-demo/)** is a live investor-intelligence
 platform: a matching engine over a knowledge graph of 25k+ companies and 134k edges, served
-to AI agents through an MCP server of about 60 tools, with a claim auditor that fact-checks
+to AI agents through a 52-tool MCP server, with a claim auditor that fact-checks
 every generated sentence against its own evidence.
 **[restaurant-brain](https://www.roger3000.com)** is an operations brain for hospitality:
 fail-loud SAF-T invoice ingestion, stock and consumption ledgers, and report cards that
