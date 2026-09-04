@@ -12,6 +12,7 @@ every generated sentence against its own evidence.
 **[restaurant-brain](https://www.roger3000.com)** is an operations brain for hospitality:
 fail-loud SAF-T invoice ingestion, stock and consumption ledgers, and report cards that
 disclose per metric whether they are actually graded or honestly ungradeable. 2,100+ tests.
+The site calls it Roger Brain; roger3000 is the umbrella name for both systems.
 
 ## The harness
 
