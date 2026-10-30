@@ -9,10 +9,10 @@ Right now that's two production systems under one roof.
 platform: a matching engine over a knowledge graph of 25k+ companies and 134k edges, served
 to AI agents through a 52-tool MCP server, with a claim auditor that fact-checks
 every generated sentence against its own evidence.
-**[restaurant-brain](https://www.roger3000.com)** is an operations brain for hospitality:
+**[restaurant-brain](https://roger3000.com/honey)** is an operations brain for hospitality:
 fail-loud SAF-T invoice ingestion, stock and consumption ledgers, and report cards that
 disclose per metric whether they are actually graded or honestly ungradeable. 2,100+ tests.
-The site calls it Roger Brain; roger3000 is the umbrella name for both systems.
+The site calls it honey; roger3000 is the studio name over both systems.
 
 ## The harness
 
@@ -27,8 +27,10 @@ makes them prove it:
   blast radius: booked-money code gets the full panel, copy changes get one pass.
 - **Pre-registered predictions, graded on a date.** Every behavioural change to the
   harness ships with a falsifiable prediction and a review-by date. A weekly digest
-  surfaces what's due, and grades are kept whichever way they land: 20 graded so far,
-  11 passed, 4 partial, 3 failed, 1 ungradeable. The failed fixes are the most useful entries.
+  surfaces what's due, and grades are kept whichever way they land: 51 grades over 40
+  predictions so far, 17 passed, 14 partial, 6 failed, 14 ungradeable. The failed fixes are the
+  most useful entries. The weekly readout is public:
+  [dev-harness-public](https://github.com/Michiel-DK/dev-harness-public).
 - **Red before green.** A test is trusted only after it has been shown failing against
   the exact defect it pins: reverted fix, injected wrong-fix, or declared gap.
 - **Instrumented, and the instruments get audited too.** A run ledger of 3,500+ typed
@@ -39,7 +41,7 @@ makes them prove it:
 The pinned repos below are the same method applied to evals, retrieval, RL rewards,
 post-training and sports data. Each one carries its own receipts, failures included.
 For the argument in visual form, start with the
-[eval-suite walkthrough](https://michiel-dk.github.io/agent-exam-suite/eval-suite-is-the-asset.html)
+[eval-suite walkthrough](https://michiel-dk.github.io/wilco/eval-suite-is-the-asset.html)
 (5-minute read).
 
 Based in Ericeira, Portugal. Before this: five years teaching data science and ML at
