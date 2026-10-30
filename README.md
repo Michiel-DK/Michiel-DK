@@ -41,10 +41,10 @@ prove it:
   [dev-harness-public](https://github.com/Michiel-DK/dev-harness-public). 887 merges, 15 weeks,
   $15 per credited merge over the last five.
 
-The pinned repos are the same method applied to evals, retrieval, RL rewards and fleet logs. Each one carries its own receipts, failures included. For the argument in visual
-form, start with the
+The pinned repos are the same method applied to evals, retrieval, RL rewards and fleet logs. Each one carries its own receipts, failures included. For the results, start with
+[wilco's results page](https://roger3000.com/wilco). The original
 [eval-suite walkthrough](https://michiel-dk.github.io/wilco/eval-suite-is-the-asset.html)
-(5-minute read).
+(5-minute read) is a frozen August 2026 snapshot: 86 cases then, 282 now.
 
 Earlier: roger3000 began as an investor-intelligence matching engine with a claim auditor that
 fact-checks every generated sentence against its own evidence. Its evaluation layer is public as
