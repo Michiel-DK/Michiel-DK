@@ -3,8 +3,7 @@
 I'm an AI engineer who likes to make things work efficiently, transparently and, where possible, locally.
 
 I co-run **[roger3000](https://roger3000.com)**, a two-person studio in Ericeira, Portugal, where we mainly work on
-business automation. I do the engineering; my partner handles sales and client contact. Every repo below commits its
-prediction before the run and keeps the results that went against it.
+business automation. I do the engineering; my partner handles sales and client contact.
 
 ## Start here
 
